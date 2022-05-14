@@ -3,6 +3,32 @@ public class Main {
 
     public static void main(String[] args){
 
+        int i;
+        Scanner sc =new Scanner(System.in);
+        System.out.print("Sinir Giriniz :");
+        int sinir=sc.nextInt();
+        for(i = 1; i <= sinir; i *= 4){
+
+            System.out.println("4 un kati  :"+i);
+
+        }
+
+        System.out.println("------------------");
+
+        for(i = 1; i <= sinir; i *= 5) {
+            System.out.println(" 5 in kati  :"+i);
+        }
+
+
+
+        //ciftToplam();
+
+
+        //ucdortModalma();
+
+    }
+
+    private static void ciftToplam() {
         int total=0,sayi;
         Scanner sc=new Scanner(System.in);
 
@@ -29,12 +55,6 @@ public class Main {
         }while (durum);
 
         System.out.print("Toplam :"+total);
-
-
-
-
-        //ucdortModalma();
-
     }
 
     private static void ucdortModalma() {
