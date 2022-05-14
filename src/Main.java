@@ -3,7 +3,37 @@ public class Main {
 
     public static void main(String[] args){
 
-        ucdortModalma();
+        int total=0,sayi;
+        Scanner sc=new Scanner(System.in);
+
+        boolean durum=true;
+
+        do {
+
+            System.out.print("Sayi giriniz :");
+            sayi=sc.nextInt();
+            if(sayi%2==0){
+
+                durum=true;
+                if(sayi%4==0){
+                    total=total+sayi;
+
+                }
+
+            }
+            else {
+                durum=false;
+            }
+
+
+        }while (durum);
+
+        System.out.print("Toplam :"+total);
+
+
+
+
+        //ucdortModalma();
 
     }
 

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e96839c9-7444-4e7c-b940-b186d8372043" name="Changes" comment="Sıfırdan girilen sayıya kadar olan sayiların 3 ile 4 e bölünme durumlarını ekrana yazdıran program" />
+    <list default="true" id="e96839c9-7444-4e7c-b940-b186d8372043" name="Changes" comment="Sıfırdan girilen sayıya kadar olan sayiların 3 ile 4 e bölünme durumlarını ekrana yazdıran program">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652533942590</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Sıfırdan girilen sayıya kadar olan sayiların 3 ile 4 e bölünme durumlarını ekrana yazdıran program">
+      <created>1652534188881</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652534188881</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
