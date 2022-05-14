@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e96839c9-7444-4e7c-b940-b186d8372043" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java101Odev3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="e96839c9-7444-4e7c-b940-b186d8372043" name="Changes" comment="Sıfırdan girilen sayıya kadar olan sayiların 3 ile 4 e bölünme durumlarını ekrana yazdıran program" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,6 +55,14 @@
       <option name="presentableId" value="Default" />
       <updated>1652533277499</updated>
     </task>
+    <task id="LOCAL-00001" summary="Sıfırdan girilen sayıya kadar olan sayiların 3 ile 4 e bölünme durumlarını ekrana yazdıran program">
+      <created>1652533942590</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652533942590</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -75,5 +75,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Sıfırdan girilen sayıya kadar olan sayiların 3 ile 4 e bölünme durumlarını ekrana yazdıran program" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sıfırdan girilen sayıya kadar olan sayiların 3 ile 4 e bölünme durumlarını ekrana yazdıran program" />
   </component>
 </project>
