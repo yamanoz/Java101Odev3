@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e96839c9-7444-4e7c-b940-b186d8372043" name="Changes" comment="Tek girilene kadar 2 ve 4 e bölünen sayıları toplayan program">
+    <list default="true" id="e96839c9-7444-4e7c-b940-b186d8372043" name="Changes" comment="4 ve 5 sayısının kuvelerini bulan program">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -79,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652535806319</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="4 ve 5 sayısının kuvelerini bulan program">
+      <created>1652538594631</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652538594631</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,6 +103,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Sıfırdan girilen sayıya kadar olan sayiların 3 ile 4 e bölünme durumlarını ekrana yazdıran program" />
     <MESSAGE value="Tek girilene kadar 2 ve 4 e bölünen sayıları toplayan program" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tek girilene kadar 2 ve 4 e bölünen sayıları toplayan program" />
+    <MESSAGE value="4 ve 5 sayısının kuvelerini bulan program" />
+    <option name="LAST_COMMIT_MESSAGE" value="4 ve 5 sayısının kuvelerini bulan program" />
   </component>
 </project>
