@@ -3,6 +3,38 @@ public class Main {
 
     public static void main(String[] args){
 
+
+        int total=1,sayi,ussu;
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Sayiya  giriniz :");
+        sayi=sc.nextInt();
+        System.out.print("Kuvvete giriniz :");
+        ussu=sc.nextInt();
+        for(int i=1;i<=ussu;i++){
+            total*=sayi;
+        }
+        System.out.print("Sayinin Ussu :"+total);
+
+
+
+
+
+
+
+        //kombinasyonHesaplam();
+
+
+        //usAlma();
+
+
+        //ciftToplam();
+
+
+        //ucdortModalma();
+
+    }
+
+    private static void kombinasyonHesaplam() {
         int n,r,ntotal=1,rtotal=1,nrtotal=1;
         Scanner sc=new Scanner(System.in);
         System.out.print("n sayisina giriniz :");
@@ -21,30 +53,6 @@ public class Main {
         }
         double kombinasyon=ntotal/(rtotal*nrtotal);
         System.out.print("Kombinasyon  :"+kombinasyon);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        //usAlma();
-
-
-        //ciftToplam();
-
-
-        //ucdortModalma();
-
     }
 
     private static void usAlma() {
