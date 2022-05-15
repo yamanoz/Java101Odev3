@@ -4,6 +4,106 @@ public class Main {
     public static void main(String[] args){
 
         Scanner sc=new Scanner(System.in);
+        int num1,num2;
+        System.out.print("Birinci sayi :");
+        num1=sc.nextInt();
+        System.out.print("ikinci sayi :");
+        num2=sc.nextInt();
+        int i=1,ebob=0,ekok=0,t=1;
+
+        /*
+        if(num1<num2){
+        //altarnatif yol
+
+            while(i<=num1){
+                if(num1%i==0 && num2%i==0){
+                   ebob=i;
+                }
+                i++;
+            }
+            System.out.print("Ebob :"+ebob);
+        }
+        else{
+            while(i<=num2){
+                if(num1%i==0 && num2%i==0){
+                    ebob=i;
+                }
+                i++;
+            }
+            System.out.print("Ebob :"+ebob);
+        }*/
+
+        if(num1<num2){ //daha kısa sürede bulur
+            int k=num1;
+            while(k>0)
+            {
+                if(num1%k==0 && num2%k==0){
+                    ebob=k;
+                    break;
+                }
+                k--;
+            }
+            System.out.println("Ebob :"+ebob);
+        }
+        else{
+            int k=num2;
+            while(k>0)
+            {
+                if(num1%k==0 && num2%k==0){
+                    ebob=k;
+                    break;
+                }
+                k--;
+            }
+            System.out.println("Ebob :"+ebob);
+        }
+
+
+        while(num1*num2>t)
+        {
+            t++;
+            if(t%num1==0 && t%num2==0){
+                System.out.println("Ekok :"+t);
+                break;
+            }
+
+        }
+
+
+
+
+
+
+
+        //atmProgrami();
+
+        //yildizAlmas();
+
+
+        //yildizUcgeni();
+
+        //harmonikSayi();
+        // basamakDegerihesaplama();
+
+
+        //amstronSayi();
+
+
+        //kombinasyonHesaplam();
+
+
+        //usAlma();
+
+
+        //ciftToplam();
+
+
+        //ucdortModalma();
+
+    }
+
+    private static void atmProgrami() {
+        Scanner sc=new Scanner(System.in);
         int right=3;
         int select;
         String userName,password;
@@ -55,30 +155,6 @@ public class Main {
                 }
             }
         }
-
-        //yildizAlmas();
-
-
-        //yildizUcgeni();
-
-        //harmonikSayi();
-        // basamakDegerihesaplama();
-
-
-        //amstronSayi();
-
-
-        //kombinasyonHesaplam();
-
-
-        //usAlma();
-
-
-        //ciftToplam();
-
-
-        //ucdortModalma();
-
     }
 
     private static void yildizAlmas() {
