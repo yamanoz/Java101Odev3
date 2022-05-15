@@ -3,16 +3,34 @@ public class Main {
 
     public static void main(String[] args){
 
-
-        Scanner sc=new Scanner(System.in);
-        System.out.print("Sayi :");
-        int n=sc.nextInt();
-        double result=0;
-        for(double i=1;i<=n;i++){
-            result+=(1/i);
+        Scanner input = new Scanner(System.in);
+        System.out.print("N sayisina giriniz :");
+        int n = input.nextInt();
+        for (int i=1; i<=n; i++){
+            for(int j=1; j<= (n - i);j++){
+                System.out.print(" ");
+            }for (int k=1; k<= (2*i - 1);k++){
+                System.out.print("*");
+            }
+            System.out.println(" ");
         }
-        System.out.print("Harmonik Sayi :"+result);
-       // basamakDegerihesaplama();
+        for (int t=1;t<=n;t++){
+            for (int b=1; b<=t; b++){
+                System.out.print(" ");
+            }
+            for (int z=1;z<=2*(n-t)-1; z++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+
+
+
+        //yildizUcgeni();
+
+        //harmonikSayi();
+        // basamakDegerihesaplama();
 
 
         //amstronSayi();
@@ -29,6 +47,46 @@ public class Main {
 
         //ucdortModalma();
 
+    }
+
+    private static void yildizUcgeni() {
+        Scanner sc=new Scanner(System.in);
+        System.out.print("N sayisi :");
+        int n=sc.nextInt();
+        int i=1;
+        while(i<=n)
+        {
+
+            int k=0;
+
+
+            while(k<=(n-i)){
+                k++;
+                System.out.print(" ");
+
+            }
+
+            int j=1;
+            while(j<=((2*i)-1))
+            {
+                j++;
+                System.out.print("*");
+
+            }
+            System.out.println(" ");
+            i++;
+        }
+    }
+
+    private static void harmonikSayi() {
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Sayi :");
+        int n=sc.nextInt();
+        double result=0;
+        for(double i=1;i<=n;i++){
+            result+=(1/i);
+        }
+        System.out.print("Harmonik Sayi :"+result);
     }
 
     private static void basamakDegerihesaplama() {
