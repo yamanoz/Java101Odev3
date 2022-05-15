@@ -7,7 +7,7 @@ public class Main {
         System.out.print("Bir sayi giriniz :");
         int sayi=sc.nextInt();
         int toplam=0;
-        for(int i=1;i<sayi;i++){
+        for(int i=1;i<=sayi/2;i++){
             if(sayi%i==0)
             {
                 toplam +=i;
