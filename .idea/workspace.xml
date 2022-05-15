@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e96839c9-7444-4e7c-b940-b186d8372043" name="Changes" comment="harmonik sayi">
+    <list default="true" id="e96839c9-7444-4e7c-b940-b186d8372043" name="Changes" comment="Yildizlarla almas yapimi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -114,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652616361887</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Yildizlarla almas yapimi">
+      <created>1652624877819</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1652624877819</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,6 +143,7 @@
     <MESSAGE value="Us alma programı" />
     <MESSAGE value="Basamak değerlerini toplayan program" />
     <MESSAGE value="harmonik sayi" />
-    <option name="LAST_COMMIT_MESSAGE" value="harmonik sayi" />
+    <MESSAGE value="Yildizlarla almas yapimi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Yildizlarla almas yapimi" />
   </component>
 </project>

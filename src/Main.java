@@ -3,28 +3,60 @@ public class Main {
 
     public static void main(String[] args){
 
-        Scanner input = new Scanner(System.in);
-        System.out.print("N sayisina giriniz :");
-        int n = input.nextInt();
-        for (int i=1; i<=n; i++){
-            for(int j=1; j<= (n - i);j++){
-                System.out.print(" ");
-            }for (int k=1; k<= (2*i - 1);k++){
-                System.out.print("*");
+        Scanner sc=new Scanner(System.in);
+        int right=3;
+        int select;
+        String userName,password;
+        int blance=1500;
+        while(right>0){
+            System.out.print("Kullanici Adiniz :");
+            userName=sc.nextLine();
+            System.out.print("Parolaniz :");
+            password=sc.nextLine();
+            if(userName.equals("patika")&&password.equals("dev123")){
+                System.out.print("Merhaba ,Kodlyoruz Bankasina Hosgeldiniz !");
+                do{
+                    System.out.println("\n1-Para yatirma\n"+"2-Para cekme\n"+"3-Bakiye Sorgulama\n"+"4-Cikis Yap");
+                    System.out.print("Lutfen yapmak istediginiz islemi yapiniz :");
+                    select=sc.nextInt();
+                    switch (select){
+                        case 1:
+                            System.out.print("Para miktari :");
+                            int price=sc.nextInt();
+                            blance +=price;
+                            break;
+                        case 2:
+                            System.out.print("Para miktari :");
+                             int cekilen=sc.nextInt();
+                            if(blance>cekilen){
+                                blance -=cekilen;
+                            }
+                            else {
+                                System.out.print("Bakiyeniz yetersiz :");
+                            }
+                            break;
+                        case 3 :
+                            System.out.print("Bakiyeniz :"+blance);
+                            break;
+                    }
+
+                }while (select!=4);
+                System.out.println("Tekrar gorusmek uzere");
+                break;
             }
-            System.out.println(" ");
-        }
-        for (int t=1;t<=n;t++){
-            for (int b=1; b<=t; b++){
-                System.out.print(" ");
+            else {
+                right--;
+                System.out.println("Hatali kullanici adi veya sifre. Tekrar deneyiniz .");
+                if(right==0){
+                    System.out.println("Hesabiniz bloke olmustur Lüfen bnka ile iletisime geciniz.");
+
+                }else {
+                    System.out.println("Kalan hakkiniz :"+right);
+                }
             }
-            for (int z=1;z<=2*(n-t)-1; z++){
-                System.out.print("*");
-            }
-            System.out.println();
         }
 
-
+        //yildizAlmas();
 
 
         //yildizUcgeni();
@@ -47,6 +79,29 @@ public class Main {
 
         //ucdortModalma();
 
+    }
+
+    private static void yildizAlmas() {
+        Scanner input = new Scanner(System.in);
+        System.out.print("N sayisina giriniz :");
+        int n = input.nextInt();
+        for (int i=1; i<=n; i++){
+            for(int j=1; j<= (n - i);j++){
+                System.out.print(" ");
+            }for (int k=1; k<= (2*i - 1);k++){
+                System.out.print("*");
+            }
+            System.out.println(" ");
+        }
+        for (int t=1;t<=n;t++){
+            for (int b=1; b<=t; b++){
+                System.out.print(" ");
+            }
+            for (int z=1;z<=2*(n-t)-1; z++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
 
     private static void yildizUcgeni() {
