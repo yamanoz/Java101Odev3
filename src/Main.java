@@ -3,6 +3,71 @@ public class Main {
 
     public static void main(String[] args){
 
+
+
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Kac sayiya gireceksiniz :");
+        int min=0,max=0;
+        int sayiAdedi=sc.nextInt();
+        for(int i=1;i<=sayiAdedi;i++){
+
+            System.out.print(i+ ". sayi :");
+            int sayi1=sc.nextInt();
+            if(i==1){
+                min=sayi1;
+                max=sayi1;
+            }
+            else {
+                if(sayi1>max){
+                    max=sayi1;
+                }
+                if(sayi1<min){
+                    min=sayi1;
+                }
+            }
+
+
+        }
+        System.out.println("En buyuk sayi :"+max);
+        System.out.print("En kucuk sayi :"+min);
+
+
+
+
+
+
+
+        //ebobEkokhesaplama();
+
+
+        //atmProgrami();
+
+        //yildizAlmas();
+
+
+        //yildizUcgeni();
+
+        //harmonikSayi();
+        // basamakDegerihesaplama();
+
+
+        //amstronSayi();
+
+
+        //kombinasyonHesaplam();
+
+
+        //usAlma();
+
+
+        //ciftToplam();
+
+
+        //ucdortModalma();
+
+    }
+
+    private static void ebobEkokhesaplama() {
         Scanner sc=new Scanner(System.in);
         int num1,num2;
         System.out.print("Birinci sayi :");
@@ -68,38 +133,6 @@ public class Main {
             }
 
         }
-
-
-
-
-
-
-
-        //atmProgrami();
-
-        //yildizAlmas();
-
-
-        //yildizUcgeni();
-
-        //harmonikSayi();
-        // basamakDegerihesaplama();
-
-
-        //amstronSayi();
-
-
-        //kombinasyonHesaplam();
-
-
-        //usAlma();
-
-
-        //ciftToplam();
-
-
-        //ucdortModalma();
-
     }
 
     private static void atmProgrami() {
