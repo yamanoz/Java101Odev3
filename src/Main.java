@@ -3,21 +3,16 @@ public class Main {
 
     public static void main(String[] args){
 
+
         Scanner sc=new Scanner(System.in);
-        System.out.print("Sayi Giriniz :");
-        int sayi=sc.nextInt();
-        int toplam=0,deger=0;
-
-        while(sayi!=0){
-            deger=sayi%10;
-            sayi=sayi/10;
-            toplam=toplam+deger;
+        System.out.print("Sayi :");
+        int n=sc.nextInt();
+        double result=0;
+        for(double i=1;i<=n;i++){
+            result+=(1/i);
         }
-        System.out.print("Toplam :"+toplam);
-
-
-
-
+        System.out.print("Harmonik Sayi :"+result);
+       // basamakDegerihesaplama();
 
 
         //amstronSayi();
@@ -34,6 +29,20 @@ public class Main {
 
         //ucdortModalma();
 
+    }
+
+    private static void basamakDegerihesaplama() {
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Sayi Giriniz :");
+        int sayi=sc.nextInt();
+        int toplam=0,deger=0;
+
+        while(sayi!=0){
+            deger=sayi%10;
+            sayi=sayi/10;
+            toplam=toplam+deger;
+        }
+        System.out.print("Toplam :"+toplam);
     }
 
     private static void amstronSayi() {
