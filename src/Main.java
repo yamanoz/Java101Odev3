@@ -3,38 +3,35 @@ public class Main {
 
     public static void main(String[] args){
 
-
-
         Scanner sc=new Scanner(System.in);
-        System.out.print("Kac sayiya gireceksiniz :");
-        int min=0,max=0;
-        int sayiAdedi=sc.nextInt();
-        for(int i=1;i<=sayiAdedi;i++){
-
-            System.out.print(i+ ". sayi :");
-            int sayi1=sc.nextInt();
-            if(i==1){
-                min=sayi1;
-                max=sayi1;
+        System.out.print("Bir sayi giriniz :");
+        int sayi=sc.nextInt();
+        int toplam=0;
+        for(int i=1;i<sayi;i++){
+            if(sayi%i==0)
+            {
+                toplam +=i;
             }
-            else {
-                if(sayi1>max){
-                    max=sayi1;
-                }
-                if(sayi1<min){
-                    min=sayi1;
-                }
-            }
-
-
         }
-        System.out.println("En buyuk sayi :"+max);
-        System.out.print("En kucuk sayi :"+min);
+
+        if(toplam==sayi){
+            System.out.print(sayi+" Sayisi Mukemmel sayidir");
+        }
+        else {
+            System.out.print(sayi+" Sayisi Mukemmel sayi  degildir");
+        }
 
 
 
 
 
+
+
+
+
+
+
+        //minMaxhesaplama();
 
 
         //ebobEkokhesaplama();
@@ -65,6 +62,34 @@ public class Main {
 
         //ucdortModalma();
 
+    }
+
+    private static void minMaxhesaplama() {
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Kac sayiya gireceksiniz :");
+        int min=0,max=0;
+        int sayiAdedi=sc.nextInt();
+        for(int i=1;i<=sayiAdedi;i++){
+
+            System.out.print(i+ ". sayi :");
+            int sayi1=sc.nextInt();
+            if(i==1){
+                min=sayi1;
+                max=sayi1;
+            }
+            else {
+                if(sayi1>max){
+                    max=sayi1;
+                }
+                if(sayi1<min){
+                    min=sayi1;
+                }
+            }
+
+
+        }
+        System.out.println("En buyuk sayi :"+max);
+        System.out.print("En kucuk sayi :"+min);
     }
 
     private static void ebobEkokhesaplama() {
