@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e96839c9-7444-4e7c-b940-b186d8372043" name="Changes" comment="ters ucgen">
+    <list default="true" id="e96839c9-7444-4e7c-b940-b186d8372043" name="Changes" comment="1 ile 100 arasindaki asal sayilar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -170,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652647048037</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="1 ile 100 arasindaki asal sayilar">
+      <created>1652705708547</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1652705708547</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,6 +206,7 @@
     <MESSAGE value="Mukemmel sayi" />
     <MESSAGE value="Dongude bir değişiklik yaptım sayının adeti kadar donmesine gerek yok sayi/2 e kadar donmesi yeterli" />
     <MESSAGE value="ters ucgen" />
-    <option name="LAST_COMMIT_MESSAGE" value="ters ucgen" />
+    <MESSAGE value="1 ile 100 arasindaki asal sayilar" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 ile 100 arasindaki asal sayilar" />
   </component>
 </project>

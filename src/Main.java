@@ -4,55 +4,23 @@ import java.util.jar.JarEntry;
 public class Main {
 
     public static void main(String[] args){
-/*
-        boolean isAsal;
 
-        for(int i = 1; i <= 100; i++){
-            isAsal = true;
 
-            for (int a = 2; a < i; a++){
-                if(i%a == 0){
-                    isAsal = false;
-                }
-            }
 
-            // 1' i asal olarak almıyoruz
-            if(i == 1){ continue; }
-            if(isAsal){
-                // asal ise yazdırır
-                System.out.print(i + " ");
-            }
-        }
-
- */
-
-        boolean kontrol;
-        for(int i=1;i<=100;i++)
-        {
-            kontrol=true;
-            for(int j=2;j<i;j++)
-            {
-                if(i%j==0)
-                {
-                    kontrol=false;
-                }
-
-            }
-            if(i==1) continue;
-            if(kontrol){
-                System.out.print(" "+i);
-            }
+        Scanner sc=new Scanner(System.in);
+        System.out.print("N sayisina giriniz :");
+        int n=sc.nextInt();
+        int sayi1=0,sayi2=1,sayi3=0;
+        for(int i=1;i<n;i++){
+            sayi3=sayi1+sayi2;
+            System.out.println(sayi1+"+"+sayi2+"="+sayi3);
+            sayi1=sayi2;
+            sayi2=sayi3;
         }
 
 
 
-
-
-
-
-
-
-
+        //asalSayilar();
 
 
         //tersUcgen();
@@ -92,6 +60,26 @@ public class Main {
 
         //ucdortModalma();
 
+    }
+
+    private static void asalSayilar() {
+        boolean kontrol;
+        for(int i=1;i<=100;i++)
+        {
+            kontrol=true;
+            for(int j=2;j<i;j++)
+            {
+                if(i%j==0)
+                {
+                    kontrol=false;
+                }
+
+            }
+            if(i==1) continue;
+            if(kontrol){
+                System.out.print(" "+i);
+            }
+        }
     }
 
     private static void tersUcgen() {
