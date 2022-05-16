@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e96839c9-7444-4e7c-b940-b186d8372043" name="Changes" comment="Dongude bir değişiklik yaptım sayının adeti kadar donmesine gerek yok sayi/2 e kadar donmesi yeterli">
+    <list default="true" id="e96839c9-7444-4e7c-b940-b186d8372043" name="Changes" comment="ters ucgen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -163,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652645461259</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="ters ucgen">
+      <created>1652647048037</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1652647048037</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +198,7 @@
     <MESSAGE value="MinMax degerlerini bulma" />
     <MESSAGE value="Mukemmel sayi" />
     <MESSAGE value="Dongude bir değişiklik yaptım sayının adeti kadar donmesine gerek yok sayi/2 e kadar donmesi yeterli" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dongude bir değişiklik yaptım sayının adeti kadar donmesine gerek yok sayi/2 e kadar donmesi yeterli" />
+    <MESSAGE value="ters ucgen" />
+    <option name="LAST_COMMIT_MESSAGE" value="ters ucgen" />
   </component>
 </project>

@@ -1,23 +1,61 @@
 import java.util.Scanner;
+import java.util.jar.JarEntry;
+
 public class Main {
 
     public static void main(String[] args){
+/*
+        boolean isAsal;
 
-        Scanner sc=new Scanner(System.in);
-        System.out.print("Basamak Sayisina Giriniz :");
-        int n=sc.nextInt();
-        for (int i = n; i >= 1; i--) {
-            for (int j = 1; j <= n - i; j++) {
-                System.out.print(" ");
+        for(int i = 1; i <= 100; i++){
+            isAsal = true;
+
+            for (int a = 2; a < i; a++){
+                if(i%a == 0){
+                    isAsal = false;
+                }
             }
-            for (int k = 1; k <= ((2 * i) - 1); k++) {
-                System.out.print("*");
+
+            // 1' i asal olarak almıyoruz
+            if(i == 1){ continue; }
+            if(isAsal){
+                // asal ise yazdırır
+                System.out.print(i + " ");
             }
-            System.out.println();
+        }
+
+ */
+
+        boolean kontrol;
+        for(int i=1;i<=100;i++)
+        {
+            kontrol=true;
+            for(int j=2;j<i;j++)
+            {
+                if(i%j==0)
+                {
+                    kontrol=false;
+                }
+
+            }
+            if(i==1) continue;
+            if(kontrol){
+                System.out.print(" "+i);
+            }
         }
 
 
 
+
+
+
+
+
+
+
+
+
+        //tersUcgen();
 
 
         //mukemmelSayi();
@@ -54,6 +92,21 @@ public class Main {
 
         //ucdortModalma();
 
+    }
+
+    private static void tersUcgen() {
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Basamak Sayisina Giriniz :");
+        int n=sc.nextInt();
+        for (int i = n; i >= 1; i--) {
+            for (int j = 1; j <= n - i; j++) {
+                System.out.print(" ");
+            }
+            for (int k = 1; k <= ((2 * i) - 1); k++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
 
     private static void mukemmelSayi() {
